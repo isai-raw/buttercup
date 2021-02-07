@@ -3,6 +3,7 @@
   --gre-green: rgb(15, 230, 15);
   --isai-yellow: rgb(239, 255, 20);
   --cards-black: rgb(46, 45, 45);
+  --background-green: rgb(9, 53, 11);
 }
 /*Resetear estilos que el navegador trae por defecto*/
 * {
@@ -17,8 +18,7 @@ html {
 }
 main {
   width: 100%;
-  height: 1000px;
-  background-color: rgb(9, 53, 11);
+  height: auto;
 }
 .main-intro-page {
   width: 100%;
@@ -27,6 +27,7 @@ main {
   color: var(--isai-yellow);
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: var(--background-green);
 }
 .main-intro-page--title {
   width: auto;
