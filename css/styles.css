@@ -38,13 +38,14 @@ main {
   text-align: center;
 }
 
-.main-intro-page .main-intro--card {
-  width: 80%;
+.main-intro--card {
+  width: 90%;
   min-width: 256px;
   max-width: 336px;
   height: auto;
   margin: 0 auto;
   padding: 10px;
+  color: var(--isai-yellow);
   font-family: "Lemonada", cursive;
   text-align: justify;
   background-color: var(--cards-black);
@@ -123,12 +124,18 @@ main {
 }
 .main-menu--title h2 {
   font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 2.8rem;
+  letter-spacing: 0.2em;
 }
 .main-menu--title p {
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.8rem;
 }
 .main-menu--choices-container {
+  margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
