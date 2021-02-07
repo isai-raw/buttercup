@@ -110,3 +110,42 @@ main {
   }
 }
 /*Pagina Menu*/
+.main-menu-page {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background-color: var(--background-green);
+}
+.main-menu--title {
+  margin-bottom: 10px;
+  color: rgb(232, 255, 151);
+  text-align: center;
+}
+.main-menu--title h2 {
+  font-size: 2.4rem;
+}
+.main-menu--title p {
+  margin-top: 50px;
+  font-size: 1.2rem;
+}
+.main-menu--choices-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main-menu-choices--article {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  padding: 15px;
+  background-color: yellowgreen;
+  color: var(--isai-yellow);
+}
+.main-menu-choices--article h3 {
+  width: 90px;
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 45px);
+  text-align: center;
+}
