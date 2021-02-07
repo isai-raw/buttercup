@@ -18,7 +18,7 @@ html {
 main {
   width: 100%;
   height: 1000px;
-  background-color: black;
+  background-color: rgb(9, 53, 11);
 }
 .main-intro-page {
   width: 100%;
@@ -36,9 +36,7 @@ main {
   font-size: 3rem;
   text-align: center;
 }
-.main-intro-page--title span {
-  color: var(--gre-green);
-}
+
 .main-intro-page .main-intro--card {
   width: 80%;
   min-width: 256px;
@@ -95,7 +93,7 @@ main {
   font-size: 1.8rem;
   font-weight: 200;
   text-align: center;
-  line-height: 2rem;
+  line-height: 2.05rem;
   letter-spacing: 2em;
   overflow: hidden;
 }
