@@ -88,14 +88,16 @@ main {
   border: none;
 }
 .main-intro-page--relleno {
-  width: 100%;
+  width: 320px;
+  height: 470px;
   margin: 0 auto;
   color: var(--gre-green);
-  font-size: 0.8rem;
+  font-size: 1.8rem;
   font-weight: 200;
   text-align: center;
   line-height: 2rem;
   letter-spacing: 2em;
+  overflow: hidden;
 }
 @keyframes cardlight {
   0% {
