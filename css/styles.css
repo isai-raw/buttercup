@@ -146,8 +146,16 @@ main {
   height: 100px;
   margin: 20px;
   padding: 15px;
-  background-color: yellowgreen;
   color: var(--isai-yellow);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: var(--gre-green);
+  border-style: double;
+  border-radius: 5px;
+}
+.menu-galery {
+  background-image: url(../assets/fotosmenu.png);
 }
 .main-menu-choices--article h3 {
   width: 90px;
@@ -155,4 +163,10 @@ main {
   top: -10px;
   left: calc(50% - 45px);
   text-align: center;
+  font-size: 1.3rem;
+  letter-spacing: 0.08em;
+  font-weight: 400;
+  color: var(--background-green);
+  background-color: var(--gre-green);
+  border-radius: 5px;
 }
