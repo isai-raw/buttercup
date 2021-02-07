@@ -40,7 +40,16 @@ main {
   border-style: double;
   border-color: var(--gre-green);
 }
-.main-intro--card h1 {
+.main-intro-page--title {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 3rem;
+  text-align: center;
+}
+.main-intro--card h2 {
   font-size: 2.4rem;
   font-weight: 500;
   line-height: 2.6rem;
