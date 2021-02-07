@@ -50,8 +50,9 @@ main {
   border-color: var(--gre-green);
   box-shadow: 0px 0px 10px var(--isai-yellow);
   animation-name: cardlight;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 .main-intro--card h2 {
   font-size: 2.4rem;
@@ -81,10 +82,6 @@ main {
   /*Shadow*/
   box-shadow: 0px 0px 10px var(--gre-green);
   border: none;
-  animation-name: buttomlight;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
 }
 @keyframes cardlight {
   0% {
@@ -95,16 +92,5 @@ main {
   }
   100% {
     box-shadow: none;
-  }
-}
-@keyframes buttomlight {
-  0% {
-    box-shadow: 0px 0px 30px var(--isai-yellow);
-  }
-  50% {
-    box-shadow: 0px 0px 30px var(--gre-green);
-  }
-  100% {
-    box-shadow: 0px 0px 30px var(--isai-yellow);
   }
 }
