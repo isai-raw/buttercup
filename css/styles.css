@@ -178,8 +178,9 @@ main {
 }
 .galery-ig_orange_and_blue {
   width: 100%;
-  height: 680px;
+  height: auto;
   margin: 0 auto;
+  padding: 10px;
   background: linear-gradient(
     45deg,
     rgba(172, 214, 113, 1) 0%,
@@ -193,11 +194,10 @@ main {
   );
 }
 .galery-ig_orange_and_blue figure {
-  width: 320px;
-  height: 668;
+  width: 239px;
+  height: 500px;
 }
 .galery-ig_orange_and_blue img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
 }
