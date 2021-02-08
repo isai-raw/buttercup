@@ -170,3 +170,35 @@ main {
   background-color: var(--gre-green);
   border-radius: 5px;
 }
+/*Galeria*/
+.main-galery-page {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  background-color: var(--background-green);
+}
+.galery-ig_orange_and_blue {
+  width: 100%;
+  height: 680px;
+  margin: 0 auto;
+  background: linear-gradient(
+    45deg,
+    rgba(172, 214, 113, 1) 0%,
+    rgba(172, 214, 113, 1) 23%,
+    rgba(255, 181, 43, 1) 24%,
+    rgba(255, 181, 43, 1) 24%,
+    rgba(255, 181, 43, 1) 66%,
+    rgba(21, 168, 176, 1) 66%,
+    rgba(21, 168, 176, 1) 68%,
+    rgba(21, 168, 176, 1) 100%
+  );
+}
+.galery-ig_orange_and_blue figure {
+  width: 320px;
+  height: 668;
+}
+.galery-ig_orange_and_blue img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
