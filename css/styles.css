@@ -177,27 +177,50 @@ main {
   background-color: var(--background-green);
 }
 .galery-ig_orange_and_blue {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   width: 100%;
   height: auto;
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
   background: linear-gradient(
     45deg,
-    rgba(172, 214, 113, 1) 0%,
-    rgba(172, 214, 113, 1) 23%,
-    rgba(255, 181, 43, 1) 24%,
-    rgba(255, 181, 43, 1) 24%,
+    rgba(168, 242, 65, 1) 0%,
+    rgba(168, 242, 65, 1) 26%,
+    rgba(255, 181, 43, 1) 26%,
+    rgba(255, 181, 43, 1) 26%,
+    rgba(255, 206, 43, 1) 48%,
     rgba(255, 181, 43, 1) 66%,
     rgba(21, 168, 176, 1) 66%,
     rgba(21, 168, 176, 1) 68%,
     rgba(21, 168, 176, 1) 100%
   );
 }
-.galery-ig_orange_and_blue figure {
-  width: 239px;
-  height: 500px;
+
+.div-img {
+  margin: 0 auto;
 }
-.galery-ig_orange_and_blue img {
-  width: 100%;
-  height: 100%;
+.img1 img {
+  width: 200px;
+  border: solid white;
+}
+.img2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.img2 img {
+  width: 60px;
+  margin: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: dashed white;
+}
+
+.img3 img {
+  max-width: 200px;
+  border: solid white;
 }
