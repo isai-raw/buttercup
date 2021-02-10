@@ -176,10 +176,7 @@ main {
   height: auto;
   background-color: var(--background-green);
 }
-.galery-ig_orange_and_blue {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+.galery-ig_orange_and_blue-container {
   width: 100%;
   height: auto;
   margin: 0 auto;
@@ -197,7 +194,38 @@ main {
     rgba(21, 168, 176, 1) 100%
   );
 }
-
+.galery-ig_orange_and_blue-photos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.galery-ig_orange_and_blue-date {
+  width: 70%;
+  min-width: 200px;
+  max-width: 350px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  border: 5px solid white;
+  background: linear-gradient(
+    45deg,
+    rgba(168, 242, 65, 1) 0%,
+    rgba(168, 242, 65, 1) 26%,
+    rgba(255, 181, 43, 1) 26%,
+    rgba(255, 181, 43, 1) 26%,
+    rgba(255, 206, 43, 1) 48%,
+    rgba(255, 181, 43, 1) 66%,
+    rgba(21, 168, 176, 1) 66%,
+    rgba(21, 168, 176, 1) 68%,
+    rgba(21, 168, 176, 1) 100%
+  );
+}
+.galery-ig_orange_and_blue-date h2 {
+  font-size: 2rem;
+  font-family: "Lemonada", cursive;
+  color: white;
+}
 .ig-oandb {
   margin: 0 auto;
 }
@@ -234,4 +262,21 @@ main {
   width: 190px;
   border: 5px solid white;
   border-radius: 10px;
+}
+.ig-oandb-img5 img {
+  width: 190px;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+.ig-oandb-img6 {
+  min-height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.ig-oandb-img6 img {
+  width: 100px;
+  margin: 10px;
+  border: 5px dashed white;
 }
