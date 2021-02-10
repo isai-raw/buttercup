@@ -203,7 +203,8 @@ main {
 }
 .ig-oandb-img1 img {
   width: 190px;
-  border: solid white;
+  border: 5px solid white;
+  border-radius: 10px;
 }
 .ig-oandb-img2 {
   min-height: 400px;
@@ -215,7 +216,7 @@ main {
 .ig-oandb-img2 img {
   width: 100px;
   margin: 10px;
-  border: dashed white;
+  border: 5px dashed white;
 }
 
 .ig-oandb-img3 img {
