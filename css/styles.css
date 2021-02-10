@@ -218,8 +218,20 @@ main {
   margin: 10px;
   border: 5px dashed white;
 }
-
+.ig-oandb-img3 {
+  min-height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
 .ig-oandb-img3 img {
+  width: 100px;
+  margin: 10px;
+  border: 5px dashed white;
+}
+.ig-oandb-img4 img {
   width: 190px;
-  border: solid white;
+  border: 5px solid white;
+  border-radius: 10px;
 }
