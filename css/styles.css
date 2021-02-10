@@ -280,3 +280,15 @@ main {
   margin: 10px;
   border: 5px dashed white;
 }
+.galery-btn-floating a {
+  position: fixed;
+  padding: 5px;
+  margin: 10px;
+  top: 1px;
+  left: 1px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.664);
+  background-color: rgba(0, 0, 0, 0.26);
+  border-radius: 5px;
+  border: 5px solid rgba(15, 230, 15, 0.24);
+}
