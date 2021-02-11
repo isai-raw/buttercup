@@ -324,3 +324,51 @@ main {
   border-radius: 5px;
   border: 5px double var(--isai-yellow);
 }
+.galery-20sept-container {
+  width: 100%;
+  padding: 5px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: black;
+  background-image: url(../assets/twins\ textura.png);
+  background-position: center;
+  background-size: 100px;
+  background-repeat: repeat;
+}
+.galery-20sept-container h2 {
+  width: max-content;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 3px;
+  font-family: "Cabin Sketch", cursive;
+  font-size: 3rem;
+  font-weight: 400;
+  color: white;
+  border: 5px dashed white;
+  background-color: black;
+}
+.galery-20sept-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.g20sept {
+  margin: 0 auto;
+}
+.g20sept img {
+  margin: 5px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 300px;
+  border: 5px solid white;
+}
+.g20sept-img1 img {
+  width: 140px;
+  border: 5px dashed white;
+}
+.g20sept-img2 img {
+  width: 140px;
+  border: 5px dashed white;
+}
