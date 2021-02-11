@@ -221,10 +221,11 @@ main {
     rgba(21, 168, 176, 1) 100%
   );
 }
-.galery-ig_orange_and_blue-date h2 {
+.galery-ig_orange_and_blue-container .galery-ig_orange_and_blue-date h2 {
   font-size: 2rem;
   font-family: "Lemonada", cursive;
   color: white;
+  border: none;
 }
 .ig-oandb {
   margin: 0 auto;
@@ -291,4 +292,34 @@ main {
   background-color: rgba(0, 0, 0, 0.26);
   border-radius: 5px;
   border: 5px solid rgba(15, 230, 15, 0.24);
+}
+.galery-first-photos-container {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+.galery-first-photos-container h2 {
+  width: max-content;
+  margin: 0 auto;
+  padding: 3px;
+  font-size: 2rem;
+  border: 5px double var(--isai-yellow);
+  border-radius: 5px;
+  color: var(--gre-green);
+}
+.galery-first-photos--pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.galery-ff {
+  width: 90%;
+  max-width: 350px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 5px double var(--isai-yellow);
+}
+.galery-ff img {
+  width: 100%;
 }
